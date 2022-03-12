@@ -19,7 +19,7 @@ const Projects: FC<ProjectsProps> = (props) => {
             ></ProjectCard>
 
             <ProjectCard title="FiveM-Dashboard"
-                description='FiveM-Dashbaord is a web application that displays your ingame informations from ingame. You can transfer your cars from ingame to any player.'
+                description='FiveM-Dashbaord is a web application that displays your ingame informations. You can transfer your cars to any player on the server.'
                 image='https://raw.githubusercontent.com/LuckyBulgur/fivem-dashboard/master/images/index.png'
                 githubUrl='https://github.com/luckybulgur/fivem-dashboard'
                 imageHeight={925}
