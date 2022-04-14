@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Ugur Aydogan</title>
-        <meta name='description' content='I am a 15 year old passionate developer and always looking for new challenging projects.' />
+        <meta name='description' content='I am a passionate developer and always looking for new challenging projects.' />
       </Head>
       <Hero></Hero>
       <Projects></Projects>

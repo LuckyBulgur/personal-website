@@ -3,11 +3,13 @@ import { FC } from 'react';
 interface SkillProps {
     name: string;
     level: number;
+    icon: any;
 }
 
-const Skill: FC<SkillProps> = (props) => {
+const Skill: FC<SkillProps> = (props: SkillProps) => {
     return <div className='w-full mt-10'>
         <div className="flex justify-between mb-1">
+            {props.icon}
             <span className="text-base font-medium text-white">{props.name}</span>
             <span className="text-sm font-medium text-white">{props.level}%</span>
         </div>

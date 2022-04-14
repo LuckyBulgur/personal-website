@@ -12,10 +12,10 @@ const Footer: FC<FooterProps> = (props) => {
             </p>
         </div>
         <div className="flex w-full flex-grow items-center justify-center gap-3 md:w-auto md:justify-end">
-            <a className='bg-slate-800 p-5 rounded-xl hover:outline transition-all' style={{ color: 'white' }} href="https://github.com/luckybulgur">
+            <a className='bg-slate-800 p-5 rounded-xl hover:outline transition-all duration-75' style={{ color: 'white' }} href="https://github.com/luckybulgur">
                 <FaGithub />
             </a>
-            <a className='bg-slate-800 p-5 rounded-xl hover:outline transition-all' style={{ color: '#9146ff' }} href="https://www.twitch.tv/luckybulgur">
+            <a className='bg-slate-800 p-5 rounded-xl hover:outline transition-all duration-75' style={{ color: '#9146ff' }} href="https://www.twitch.tv/luckybulgur">
                 <FaTwitch />
             </a>
         </div>
